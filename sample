@@ -1,1 +1,102 @@
 https://www.figma.com/proto/7vHfps3el3nPBeQ0wCqKR3/Untitled?node-id=2-2&node-type=canvas&t=a5zrnv16R8ZsitEh-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1
+
+
+Wireframe Text for Chit Fund Application
+1. User Registration / Login Page
+Header:
+
+Title: "Welcome to [Platform Name]"
+Subtitle: "Join or Login to your Account"
+Registration Form:
+
+Input Field: Name
+Input Field: Email
+Input Field: Phone
+Input Field: Password
+Button: "Register"
+Login Form (if user chooses to login):
+
+Input Field: Email
+Input Field: Password
+Button: "Login"
+Footer:
+
+Links: "Terms of Service", "Privacy Policy"
+2. Dashboard (After Login)
+Navbar:
+
+Logo (top left)
+Links: Home | Groups | User Profile | About | Contact | Logout (top right)
+Hero Section:
+
+Title: "Welcome, [User Name]"
+Brief description of user’s role (e.g., "Chit Creator" or "Participant")
+Button: "Create a Chit Fund" (if Chit Creator)
+My Chit Funds Section:
+
+Header: "My Active Chit Funds"
+List of Chit Funds:
+Card for each Chit Fund
+Chit Fund Name
+Total Amount
+Duration
+Button: "View Details"
+Available Chit Funds Section:
+
+Header: "Available Chit Funds"
+List of Chit Funds:
+Card for each Chit Fund
+Chit Fund Name
+Description
+Button: "Join Fund"
+3. Chit Fund Creation Page (for Chit Creators)
+Header:
+
+Title: "Create a New Chit Fund"
+Form Fields:
+
+Input Field: Chit Fund Name
+Input Field: Total Amount
+Input Field: Duration (in months)
+Input Field: Start Date
+Input Field: End Date
+Button: "Create Chit Fund"
+4. Chit Fund Details Page
+Header:
+
+Title: "[Chit Fund Name] Details"
+Information Section:
+
+Total Amount: [Amount]
+Duration: [Duration]
+Start Date: [Start Date]
+End Date: [End Date]
+Participants List: [List of Participants]
+Action Buttons:
+
+Button: "Make Contribution"
+Button: "Place Bid" (if applicable)
+5. User Profile Page
+Header:
+
+Title: "User Profile"
+Profile Information:
+
+Label: Name: [User Name]
+Label: Email: [User Email]
+Label: Phone: [User Phone]
+Button: "Edit Profile"
+KYC Documents Section:
+
+Label: KYC Status: [Verified/Not Verified]
+Button: "Upload KYC Documents"
+6. Notifications Page
+Header:
+
+Title: "Notifications"
+Notification List:
+
+List of Notifications:
+Notification Message: [Message]
+Timestamp: [Date/Time]
+Status: [Read/Unread]
