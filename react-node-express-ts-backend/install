@@ -1,0 +1,12 @@
+npm init -y
+npm install express sequelize mysql2 pdfmake typescript ts-node-dev --save
+npm install @types/express @types/sequelize --save-dev
+npm i cors
+
+
+npx create-react-app po-frontend --template typescript
+npm i axios
+cd po-frontend
+npm start
+
+

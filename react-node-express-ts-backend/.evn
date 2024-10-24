@@ -1,0 +1,4 @@
+DB_NAME=purchase_orders
+DB_USER=root
+DB_PASSWORD=password
+DB_HOST=localhost

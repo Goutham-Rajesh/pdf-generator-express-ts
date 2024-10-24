@@ -1,0 +1,66 @@
+training-po-system/
+├── backend/
+│   ├── package.json
+│   ├── tsconfig.json
+│   ├── src/
+│   │   ├── app.ts                 # Express app setup
+│   │   ├── server.ts              # Server entry point
+│   │   ├── config/
+│   │   │   ├── database.ts        # Database configuration
+│   │   │   └── config.ts          # Application configuration
+│   │   ├── models/
+│   │   │   ├── index.ts           # Model associations
+│   │   │   ├── Trainer.ts         # Trainer model
+│   │   │   └── PurchaseOrder.ts   # PO model
+│   │   ├── controllers/
+│   │   │   ├── TrainerController.ts
+│   │   │   └── PurchaseOrderController.ts
+│   │   ├── routes/
+│   │   │   ├── index.ts           # Route aggregation
+│   │   │   ├── trainer.routes.ts
+│   │   │   └── po.routes.ts
+│   │   ├── middleware/
+│   │   │   ├── error.middleware.ts # Error handling middleware
+│   │   │   └── validate.middleware.ts # Request validation
+│   │   ├── types/
+│   │   │   └── index.ts           # Type definitions
+│   │   └── utils/
+│   │       └── logger.ts          # Logging utility
+│   ├── .env                       # Environment variables
+│   ├── .gitignore
+│   └── README.md
+│
+├── frontend/
+│   ├── package.json
+│   ├── tsconfig.json
+│   ├── index.html
+│   ├── src/
+│   │   ├── main.tsx              # Entry point
+│   │   ├── App.tsx               # Root component
+│   │   ├── components/
+│   │   │   ├── trainers/
+│   │   │   │   ├── TrainerForm.tsx
+│   │   │   │   ├── TrainerList.tsx
+│   │   │   │   └── TrainerCard.tsx
+│   │   │   ├── pos/
+│   │   │   │   ├── POForm.tsx
+│   │   │   │   ├── POList.tsx
+│   │   │   │   └── POCard.tsx
+│   │   │   └── common/
+│   │   │       ├── Layout.tsx
+│   │   │       ├── Navigation.tsx
+│   │   │       └── MessageAlert.tsx
+│   │   ├── types/
+│   │   │   └── index.ts          # Type definitions
+│   │   ├── utils/
+│   │   │   ├── api.ts            # API utilities
+│   │   │   └── formatters.ts     # Data formatters
+│   │   └── assets/
+│   │       └── styles/
+│   │           └── index.css      # Global styles
+│   ├── .env                      # Environment variables
+│   ├── .gitignore
+│   └── README.md
+│
+├── .gitignore
+└── README.md
